@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Semantic HTML5 Page</title>
+  <meta name="description" content="A sample semantic HTML5 page demonstrating best practices for accessibility and SEO with proper structure, headings, and metadata." />
+  <meta name="keywords" content="HTML5, semantic elements, accessibility, SEO, web development" />
+  <meta name="author" content="Your Name" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to Our Website</h1>
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <article aria-labelledby="article-title">
+      <h2 id="article-title">Our Mission and Vision</h2>
+      <p>We strive to deliver high-quality web solutions with a clear focus on accessibility and SEO best practices.</p>
+    </article>
+
+    <section aria-labelledby="section-updates">
+      <h2 id="section-updates">Latest Updates</h2>
+      <p>Stay tuned for our upcoming features and regular blog posts on web development trends.</p>
+    </section>
+
+    <aside aria-label="Complementary information">
+      <h3>Did You Know?</h3>
+      <p>Using semantic HTML5 improves screen reader experience and search engine indexing.</p>
+    </aside>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
